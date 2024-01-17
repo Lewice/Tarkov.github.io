@@ -3,71 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Playlist with Dropdown</title>
+    <title>Image Gallery</title>
     <style>
-        body {
+        .image-container {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            margin-top:150px; /* Added margin to the top */
+			margin-right: 25.0%; /* Adjusted margin to bring images closer */
+            margin-left: 25.0%; /* Adjusted margin to bring images closer */
         }
 
-        #selectedVideoContainer, #videoSelect {
-            margin-bottom: 20px;
+        .image-container a {
+            width: 30%;
+            margin-right: 15.0%; /* Adjusted margin to bring images closer */
+            margin-left: 15.0%; /* Adjusted margin to bring images closer */
+            text-decoration: none;
+            display: block;
         }
 
-        #videoPlayer {
-            max-width: 100%;
+        .image-container img {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
 
-<label for="videoSelect">Select a video:</label>
-<select id="videoSelect" onchange="changeVideo()">
-    <option value="pt1.mp4">Gunsmith PT 1</option>
-    <option value="pt2.mp4">Gunsmith PT 2</option>
-	<option value="pt3.mp4">Gunsmith PT 3</option>
-    <option value="pt4.mp4">Gunsmith PT 4</option>
-	<option value="pt5.mp4">Gunsmith PT 5</option>
-    <option value="pt6.mp4">Gunsmith PT 6</option>
-	<option value="pt7.mp4">Gunsmith PT 7</option>
-    <option value="pt8.mp4">Gunsmith PT 8</option>
-	<option value="pt9.mp4">Gunsmith PT 9</option>
-    <option value="pt10.mp4">Gunsmith PT 10</option>
-	<option value="pt11.mp4">Gunsmith PT 11</option>
-    <option value="pt12.mp4">Gunsmith PT 12</option>
-	<option value="pt13.mp4">Gunsmith PT 13</option>
-    <option value="pt13.mp4">Gunsmith PT 14</option>
-	<option value="pt14.mp4">Gunsmith PT 15</option>
-    <option value="pt15.mp4">Gunsmith PT 16</option>
-	<option value="pt16.mp4">Gunsmith PT 17</option>
-    <!-- Add more options for each video -->
-</select>
+<div class="image-container">
+    <a href="#link1"><img src="image1.jpg" alt="Proper"></a>
+    <a href="#link2"><img src="image2.jpg" alt="Therapist"></a>
+    <a href="#link3"><img src="image3.jpg" alt="Fence"></a>
+</div>
 
-<div id="selectedVideoContainer">
-    <h2>Selected Video:</h2>
-    <video id="videoPlayer" width="640" height="360" controls>
-        <source id="videoSource" src="video1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<div class="image-container">
+    <a href="#link4"><img src="image4.jpg" alt="Skier"></a>
+    <a href="#link5"><img src="image5.jpg" alt="Ragman"></a>
+    <a href="#link6"><img src="image6.jpg" alt="Mechanic"></a>
+</div>
+
+<div class="image-container">
+    <a href="#link7"><img src="image7.jpg" alt="Jaeger"></a>
+    <a href="#link8"><img src="image8.jpg" alt="Hideout"></a>
+    <a href="#link9"><img src="image9.jpg" alt="Ammo Guide"></a>
+</div>
+
+<div class="image-container">
+    <a href="#link10"><img src="image10.jpg" alt="Quest Items"></a>
+    <a href="#link11"><img src="image11.jpg" alt="Maps"></a>
+    <a href="#link12"><img src="image12.jpg" alt="Coming Soon!"></a>
 </div>
 
 
-
-<script>
-    function changeVideo() {
-        var videoSelect = document.getElementById("videoSelect");
-        var videoPlayer = document.getElementById("videoPlayer");
-        var videoSource = document.getElementById("videoSource");
-
-        var selectedVideo = videoSelect.value;
-        videoSource.src = selectedVideo;
-        videoPlayer.load();
-    }
-</script>
 
 </body>
 </html>
