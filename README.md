@@ -32,19 +32,19 @@
 <body>
 
 <div class="image-container">
-    <a href="#link1"><img src="image1.jpg" alt="Proper"></a>
-    <a href="#link2"><img src="image2.jpg" alt="Therapist"></a>
-    <a href="#link3"><img src="image3.jpg" alt="Fence"></a>
+    <a href="#link1"><img src="trader photos/Proper.png" alt="Proper"></a>
+    <a href="#link2"><img src="trader photos/Therapist.png" alt="Therapist"></a>
+    <a href="#link3"><img src="trader photos/fence.png" alt="Fence"></a>
 </div>
 
 <div class="image-container">
     <a href="#link4"><img src="image4.jpg" alt="Skier"></a>
-    <a href="#link5"><img src="image5.jpg" alt="Ragman"></a>
-    <a href="#link6"><img src="image6.jpg" alt="Mechanic"></a>
+    <a href="#link5"><img src="trader photos/Ragman.png" alt="Ragman"></a>
+    <a href="#link6"><img src="trader photos/Mechanic.png" alt="Mechanic"></a>
 </div>
 
 <div class="image-container">
-    <a href="#link7"><img src="image7.jpg" alt="Jaeger"></a>
+    <a href="#link7"><img src="trader photos/Jeager.png" alt="Jaeger"></a>
     <a href="#link8"><img src="image8.jpg" alt="Hideout"></a>
     <a href="#link9"><img src="image9.jpg" alt="Ammo Guide"></a>
 </div>
