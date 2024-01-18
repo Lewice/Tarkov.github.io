@@ -46,7 +46,7 @@
 <div class="image-container">
     <a href="#link7"><img src="trader photos/Jeager.png" alt="Jaeger"></a>
     <a href="#link8"><img src="image8.jpg" alt="Hideout"></a>
-    <a href="#link9"><img src="image9.jpg" alt="Ammo Guide"></a>
+    <a href="#link9"><img src="trader photos/Ammo.png" alt="Ammo Guide"></a>
 </div>
 
 <div class="image-container">
