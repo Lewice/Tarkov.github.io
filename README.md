@@ -32,21 +32,21 @@
 <body>
 
 <div class="image-container">
-    <a href="#link1"><img src="trader photos/Proper.png" alt="Proper"></a>
-    <a href="#link2"><img src="trader photos/Therapist.png" alt="Therapist"></a>
-    <a href="#link3"><img src="trader photos/fence.png" alt="Fence"></a>
+    <a href="#link1"><img src="trader photo/proper.png" alt="Proper"></a>
+    <a href="#link2"><img src="trader photo/therapist.png" alt="Therapist"></a>
+    <a href="#link3"><img src="trader photo/fence.png" alt="Fence"></a>
 </div>
 
 <div class="image-container">
-    <a href="#link4"><img src="trader photos/Skier.png" alt="Skier"></a>
-    <a href="#link5"><img src="trader photos/Ragman.png" alt="Ragman"></a>
-    <a href="#link6"><img src="trader photos/Mechanic.png" alt="Mechanic"></a>
+    <a href="#link4"><img src="trader photo/Skier.png" alt="Skier"></a>
+    <a href="#link5"><img src="trader photo/ragman.png" alt="Ragman"></a>
+    <a href="#link6"><img src="trader photo/mechanic.png" alt="Mechanic"></a>
 </div>
 
 <div class="image-container">
-    <a href="#link7"><img src="trader photos/Jeager.png" alt="Jaeger"></a>
+    <a href="#link7"><img src="trader photo/jeager.png" alt="Jaeger"></a>
     <a href="#link8"><img src="image8.jpg" alt="Hideout"></a>
-    <a href="#link9"><img src="trader photos/Ammo.png" alt="Ammo Guide"></a>
+    <a href="#link9"><img src="trader photo/Ammo.jpg" alt="Ammo Guide"></a>
 </div>
 
 <div class="image-container">
