@@ -15,7 +15,7 @@
         }
 
         .image-container a {
-            width: 30%;
+            width: 50%;
             margin-right: 15.0%; /* Adjusted margin to bring images closer */
             margin-left: 15.0%; /* Adjusted margin to bring images closer */
             text-decoration: none;
