@@ -38,7 +38,7 @@
 </div>
 
 <div class="image-container">
-    <a href="#link4"><img src="image4.jpg" alt="Skier"></a>
+    <a href="#link4"><img src="trader photos/Skier.png" alt="Skier"></a>
     <a href="#link5"><img src="trader photos/Ragman.png" alt="Ragman"></a>
     <a href="#link6"><img src="trader photos/Mechanic.png" alt="Mechanic"></a>
 </div>
