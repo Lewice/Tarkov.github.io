@@ -1,0 +1,265 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    img {
+        width: 200px;
+        margin: 0 10px;
+    }
+
+    #tasks {
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    #tasks ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #tasks li {
+        margin: 10px;
+    }
+
+    #quest-items {
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .quest-item {
+        margin: 10px;
+    }
+
+    .quest-item img {
+        width: 100px;
+    }
+
+    #kappa-required {
+        color: red;
+    }
+
+    #nav-tab {
+        position: fixed;
+        top: 10px;
+        left: -200px;
+        width: 200px;
+        height: 100%;
+        background-color: #333;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: left 0.3s ease;
+    }
+
+    #nav-toggle {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        z-index: 2;
+    }
+
+    #nav-tab a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 10px;
+        transition: margin-left 0.3s ease;
+
+        /* Updated styles for the box under the names */
+        padding: 5px;
+        background-color: #333;
+        border-radius: 5px;
+    }
+
+    #nav-tab .dropdown {
+        margin-top: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #nav-tab .dropdown-content {
+        margin-left: -200px;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        transition: margin-left 0.3s ease;
+    }
+
+    #nav-tab .dropdown.active .dropdown-content {
+        margin-left: 0;
+    }
+</style>
+    <title>The Collector</title>
+</head> 
+<body> 
+    <header> 
+        <p>Fence</p> 
+        <p>Any map</p> 
+        <p id="kappa-required">Kappa Required</p> 
+    </header> 
+ 
+ 
+ 
+    <div id="tasks"> 
+        <p>Tasks:</p> 
+        <ul> 
+            <li>Task 1: Find Old firesteel in raid</li> 
+            <li>Task 2: Find Antique axe in raid</li> 
+            <li>Task 3: Find Battered antique book in raid</li> 
+			<li>Task 4: Find FireKlean gun lube in raid</li> 
+            <li>Task 5: Find Golden rooster figurine in raid</li> 
+            <li>Task 6: Find Silver Badge in raid</li> 
+			<li>Task 7: Find Deadlyslob's beard oil in raid</li> 
+            <li>Task 8: Find Golden 1GPhone smartphone in raid</li> 
+            <li>Task 9: Find Jar of DevilDog mayo in raid</li> 
+			<li>Task 10: Find Can of sprats in raid</li> 
+            <li>Task 11: Find Fake mustache in raid</li> 
+            <li>Task 12: Find Kotton beanie in raid</li> 
+			<li>Task 13: Find Raven figurine in raid</li> 
+            <li>Task 14: Find Pestily plague mask in raid</li> 
+            <li>Task 15: Find Shroud half-mask in raid</li> 
+			<li>Task 16: Find Can of Dr. Lupo's coffee beans in raid</li> 
+            <li>Task 17: Find 42 Signature Blend English Tea in raid</li> 
+            <li>Task 18: Find Veritas guitar pick in raid</li> 
+			<li>Task 19: Find Evasion armband in raid</li> 
+            <li>Task 20: Find Can of RatCola soda in raid</li> 
+            <li>Task 21: Find Loot Lord plushie in raid</li> 
+			<li>Task 22: Find WZ Wallet in raid</li> 
+            <li>Task 23: Find LVNDMARK's rat poison in raid</li> 
+            <li>Task 24: Find Smoke balaclava in raid</li> 
+			<li>Task 25: Find Missam forklift key in raid</li> 
+            <li>Task 26: Find Video cassette with the Cyborg Killer movie in raid</li> 
+            <li>Task 27: Find BakeEzy cook book in raid</li> 
+			<li>Task 28: Find JohnB Liquid DNB glasses in raid</li> 
+            <li>Task 29: Find Glorious E lightweight armored mask in raid</li> 
+            <li>Task 30: Find Baddie's red beard in raid</li> 
+			<li>Task 31: Find DRD body armor in raid</li> 
+            <li>Task 32: Find Gingy keychain in raid</li> 
+            <li>Task 33: Find Golden egg in raid</li> 
+			<li>Task 34: Find Press pass (issued for NoiceGuy) in raid</li> 
+            <li>Task 35: Find Axel parrot figurine in raid</li> 
+            <li>Task 36: Find BEAR Buddy plush toy in raid</li> 
+        </ul> 
+    </div> 
+ 
+
+ 
+    <!-- Navigation Tab --> 
+<div id="nav-tab"> 
+    <div class="dropdown"> 
+        <a href="#" class="home">Quest Traders</a> 
+        <div class="dropdown-content"> 
+            <a href="#">Proper</a> 
+            <a href="#">therapist</a> 
+            <a href="#">Fence</a> 
+            <a href="#">Skier</a> 
+            <a href="#">Ragman</a> 
+            <a href="#">Mechanic</a> 
+            <a href="#">Jaeger</a> 
+            <!-- Add more trader options as needed --> 
+        </div> 
+    </div> 
+    <div class="dropdown"> 
+        <a href="#" class="tasks-dropdown">Ammo Guide</a> 
+        <div class="dropdown-content"> 
+            <a href="#">Ammo Guide</a> 
+            <!-- Add more task options as needed --> 
+        </div> 
+    </div> 
+    <div class="dropdown"> 
+        <a href="#" class="items-dropdown">Quest Items Needed</a> 
+        <div class="dropdown-content"> 
+            <a href="#">Item 1</a> 
+            <!-- Add more item options as needed --> 
+        </div> 
+    </div> 
+    <div class="dropdown"> 
+        <a href="#" class="items-dropdown">Hideout Guide</a> 
+        <div class="dropdown-content"> 
+            <a href="#">Hideout Guide</a> 
+            <!-- Add more item options as needed --> 
+        </div> 
+    </div> 
+     
+    <div class="dropdown"> 
+        <a href="#" class="items-dropdown">Maps</a> 
+        <div class="dropdown-content"> 
+            <a href="#">Customs</a> 
+            <a href="#">Factory</a> 
+            <a href="#">Reserve</a> 
+            <a href="#">Shoreline</a> 
+            <a href="#">LightHouse</a> 
+            <a href="#">Woods</a> 
+            <a href="#">Interchange</a> 
+            <a href="#">The Lab</a> 
+            <a href="#">Streets Of Tarkov</a> 
+            <a href="#">Ground Zero</a> 
+            <!-- Add more item options as needed --> 
+        </div> 
+    </div> 
+    <!-- Add more navigation links as needed --> 
+</div> 
+<div id="nav-toggle">&#9654;</div> 
+ 
+<script>
+    // JavaScript to handle toggle functionality
+    const navTab = document.getElementById('nav-tab');
+    const navToggle = document.getElementById('nav-toggle');
+
+    navToggle.addEventListener('click', () => {
+        const currentLeft = parseInt(getComputedStyle(navTab).left);
+        navTab.style.left = currentLeft === 0 ? '-200px' : '0';
+    });
+
+    // Toggle dropdown on click
+    const dropdowns = document.querySelectorAll('.dropdown');
+    dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('click', function (event) {
+            event.stopPropagation(); // Prevent the click event from reaching document
+
+            this.classList.toggle('active');
+            const content = this.querySelector('.dropdown-content');
+            content.style.height = this.classList.contains('active') ? `${content.scrollHeight}px` : '0';
+        });
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', () => {
+        dropdowns.forEach(dropdown => {
+            if (!dropdown.contains(event.target)) {
+                dropdown.classList.remove('active');
+                dropdown.querySelector('.dropdown-content').style.height = '0';
+            }
+        });
+    });
+</script> 
+</body> 
+</html>'
