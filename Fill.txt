@@ -1,1 +1,279 @@
-fill me
+Fence - 7 Tasks - all names in html
+- Collector
+- the choice 
+- Compensation for damage wager
+- Compensation for damage bar keep
+- Compensation for damage collection 
+- Compensation for damage werglid
+- Compensation for damage Trust 
+
+
+Proper - 32 tasks - all named html files
+
+- Debut (anywhere) kappa
+- Checking (customs) kappa
+- Search mission (woods) kappa
+- Delivery from the past (location) kappa
+- Shootout picnic (location) kappa
+- BP Depot (location) kappa
+- Bad rep evidence (location) kappa
+- The bunker (reserve) no kappa
+- Ice cream cones (anywhere) kappa
+- The bunker pt 2 (reserve) no kappa
+- Post man pat (factory) kappa
+- No place for renegades (location) no kappa 
+- Shaking up the teller (location) kappa
+- Documents (location no kappa
+- Perfect mediator (location) kappa
+- Grenadier (location) kappa
+- The punisher pt 1 (location) kappa
+- Anesthesia (location) not kappa
+- Insomnia (location) kappa
+- Test drive pt 1 (location) kappa
+- The Punisher pt 1 (location) kappa
+- The Punisher pt 2 (location) kappa
+- The punisher pt 3 (location) kappa
+- The Punisher pt 4 (location) kappa
+- The Punisher pt 5 (location) kappa
+- The punisher pt 6 (location) kappa
+- Easy job pt 1 (location) no kappa
+- Easy job pt 2 (location) no kappa
+- Our Own land (location) no kappa
+- Escort (location) no kappa
+- Intimidator (location) no kappa
+- Capturing outposts (location) no kappa
+
+Therapist - 31 tasks - all named html files
+
+- shortage (location) kappa
+- Sanitary standards (location) kappa
+- Operation Aquarius  (location) kappa
+- Sanitary standards pt 2  (location) kappa
+- Operation Aquarius pt 2  (location) kappa
+- Pain killer (location) kappa
+- Pharmacist (location) kappa
+- Seaside vacation  (location) no kappa
+- General wares (location) kappa
+- Health care privacy pt 1 (location) kappa
+- Supply plans (location) kappa
+- Car repair (location) kappa
+- Hippocratic oath (location) no kappa
+- Disease history (location) no kappa
+- Colleagues pt 1 (location) no kappa
+- Health care privacy pt 2 (location) kappa
+- Postman pat pt 2 (location) kappa
+- Colleagues pt 2 (location) no kappa
+- Health care privacy pt 3 (location) kappa
+- Lost contact (location) no kappa
+- Out of curiosity (location) kappa
+- Colleagues pt 3 (location) no kappa
+- Health care privacy pt 4 (location) kappa
+- An apple a day keeps the doc away (location) kappa
+- Drug trafficing (location) no kappa
+- Trust regain (location) kappa
+- Healthcare privacy pt 5 (location) kappa
+- Private clinic  (location) kappa
+- Athlete (location) kappa
+- Decontamination zone (location) kappa
+- Crisis (location) no kappa
+
+
+Skier - 28 tasks  - all named html files
+
+- supplier (location) kappa
+- The extortionist (location) kappa
+- Stirrup (location) kappa
+- What’s on the flash drive (location) kappa
+- Golden swag  (location) kappa
+- Chemical pt 1 (location) kappa
+- Friend from the west  (location) kappa
+- Friend from the west pt 2 (location) kappa
+- Chemical pt 2 (location) kappa
+- Kind of sabotage (location) kappa
+- Top secret (location) no kappa (location) kappa
+- Chemical pt 3 (location) kappa
+- Lend lease pt 1 (location) kappa
+- Informed means arms (location) kappa
+- Long road (location) no kappa (location) kappa
+- Viatamins pt 1 (location) kappa
+- Chemical pt 4 (location) kappa
+- Chumming (location) kappa
+- Missing cargo (location) no kappa (location) kappa
+- Viatamins pt 2 (location) kappa
+- Safe corridor (location) no kappa
+- Bullshit (location) kappa
+- Silent caliber (location) kappa
+- Flint (location) kappa
+- Loyalty buyout (location) no kappa
+- Setup  (location) kappa
+- Rigged game (location) no kappa
+- Night sweep (location) no kappa
+
+
+
+Peacekeeper - 38 tasks - all named html files
+
+- fishing gear (location) kappa
+- Tiger safari
+- Scrap metal
+- Eagle eye
+- Revisions pt 1 (location) no kappa
+- Revisions pt 2 (location) no kappa
+- Humanitarian supplies
+- Classified technologies (location) no kappa
+- Spa tour pt 1
+- The cult pt 1
+- Overpopulation (location) no kappa
+- Spa tour pt 2
+- The cult pt 2
+- Spa tour pt 3
+- Lend lease pt 2
+- Peacekeeping mission (location) no kappa
+- Spa tour pt 4
+- Conteraction (location) no kappa
+- Spa tour pt 5
+- Spa tour pt 6
+- Spa tour pt 7
+- Wet job pt 1
+- Cargo x pt 2
+- Wet job pt 2
+- Cargo x pt 2
+- Wet job pt 3
+- Cargo x pt 3
+- Wet job pt 4
+- Cargo x pt 4 (location) no kappa
+- Mentor (location) no kappa
+- Wet job pt 5
+- Wet job pt 6
+- The guide
+- Special equipment (location) no kappa
+- Trophies (location) no kappa
+- The cleaner (location) no kappa
+- Terrgroup employee
+- Samples (location) no kappa
+
+
+Ragman - 32 tasks
+
+- only business (location) kappa
+- Make ultra great again 
+- Big sale
+- A fuel matter (location) no kappa
+- Communication diffuculties (location) no kappa
+- Database pt 1
+- The blood of war pt 1
+- Inventory check (location) no kappa
+- Database pt 2
+- Dressed to kill 
+- Sew it good pt 1
+- Mini bus
+- Gratitude 
+- The blood of war pt 2
+- See it good pt 2
+- Sales night
+- Hot delivery 
+- The blood of war pt 3
+- Sew it good pt 3
+- The key to success
+- Supervisor
+- Scavenger
+- Living high is not a crime pt 1 (location) no kappa
+- Living high is not a crime pt 2
+- Sew it good pt 4
+- The stylish one (location) no kappa
+- Long line (location) no kappa
+- No fuss needed (location) no kappa
+- Charisma brings success (location) no kappa
+- Textile pt 1 (location) no kappa
+- Booze (location) no kappa
+- Textile pt 2
+
+
+
+Mechanic - 39 tasks - all named html files
+
+- gunsmith pt 1 (location) kappa
+- Introduction 
+- Farming pt 1
+- Gunsmith pt 2
+- Farming pt 2
+- Gunsmith pt 3
+- Signal pt 1
+- Broadcast (location) no kappa
+- Bad habit
+- Farming pt 3
+- Gunsmith pt 4
+- Signal pt 2
+- Insider
+- Farming pt 4
+- Gunsmith pt 5
+- Signal pt 3
+- Scout
+- Import (location) no kappa
+- Fertilizer
+- Gunsmith pt 6 
+- Signal pt 4
+- Surplus goods (location) no kappa
+- A shooter born in heaven 
+- Gunsmith pt 7 
+- Back door (location) no kappa
+- Gunsmith pt 8
+- Gunsmith pt 9 
+- Chemistry closet
+- Gunsmith pt 10 
+- Calibration (location) no kappa
+- The courier (location) no kappa
+- Energy crisis (location) no kappa
+- Corporation secrets (location) no kappa
+- Gunsmith pt 11
+- Gunsmith pt 12
+- Gunsmith pt 13 
+- Gunsmith pt 14
+- Gunsmith pt 15
+- Gunsmith pt 16
+
+
+Yeager - 42 tasks  - all named html files
+
+- acquaintance  (location) kappa
+- The tarkov shooter pt 1
+- The survivalist path unprotected but dangerous 
+- The survivalist path thrifty 
+- The tarkov shooter pt 2
+- The survivalist path zhivchik 
+- The tarkov shooter pt 3
+- The survivalist path wounded beast 
+- Shady buisness
+- The tarkov shooter pt 4
+- The huntsmen path secured perimeter
+- The survivalist path cold blooded
+- The survivalist path tough guy
+- The tarkov shooter pt 5
+- The huntsmen path forest cleaning 
+- The huntsmen path trophy
+- Reserve
+- The survivalist path combat medic
+- The survivalist path junkie
+- Ambulance
+- Courtesy visit
+- The hermit (lighthouse) no kappa
+- The tarkov shooter pt 6
+- Fishing place 
+- The huntsmen path evil watchmen 
+- The huntsmen path controller (location) no kappa 
+- The huntsmen path sellout 
+- The huntsmen path justice 
+- The huntsmen path outcasts (location) no kappa
+- Nostalgia
+- The tarkov shooter pt 7 
+- The huntsmen path woods keeper
+- The tarkov shooter of 8
+- Hunter (location) no kappa
+- Pest control (location) no kappa
+- The huntsmen path factory chief  (location) no kappa
+- Hunting trip  (location) no kappa
+- The huntsmen path eraser pt 1
+- The huntsmen path eraser pt 2
+- The survivalist path eagle owl 
+- The huntsman path relentless  (location) no kappa
+- Stray dogs (location) no kappa
