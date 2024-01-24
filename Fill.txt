@@ -1,47 +1,4 @@
-Fence - 7 Tasks - all names in html
-- Collector
-- the choice 
-- Compensation for damage wager
-- Compensation for damage bar keep
-- Compensation for damage collection 
-- Compensation for damage werglid
-- Compensation for damage Trust 
 
-
-Proper - 32 tasks - all named html files
-
-- Debut (anywhere) kappa
-- Checking (customs) kappa
-- Search mission (woods) kappa
-- Delivery from the past (location) kappa
-- Shootout picnic (location) kappa
-- BP Depot (location) kappa
-- Bad rep evidence (location) kappa
-- The bunker (reserve) no kappa
-- Ice cream cones (anywhere) kappa
-- The bunker pt 2 (reserve) no kappa
-- Post man pat (factory) kappa
-- No place for renegades (location) no kappa 
-- Shaking up the teller (location) kappa
-- Documents (location no kappa
-- Perfect mediator (location) kappa
-- Grenadier (location) kappa
-- The punisher pt 1 (location) kappa
-- Anesthesia (location) not kappa
-- Insomnia (location) kappa
-- Test drive pt 1 (location) kappa
-- The Punisher pt 1 (location) kappa
-- The Punisher pt 2 (location) kappa
-- The punisher pt 3 (location) kappa
-- The Punisher pt 4 (location) kappa
-- The Punisher pt 5 (location) kappa
-- The punisher pt 6 (location) kappa
-- Easy job pt 1 (location) no kappa
-- Easy job pt 2 (location) no kappa
-- Our Own land (location) no kappa
-- Escort (location) no kappa
-- Intimidator (location) no kappa
-- Capturing outposts (location) no kappa
 
 Therapist - 31 tasks - all named html files
 
