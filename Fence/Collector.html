@@ -125,6 +125,11 @@
         <p>Any map</p> 
         <p id="kappa-required">Kappa Required</p> 
     </header> 
+	
+	<div id="search-bar">
+    <label for="search-input">Search Items:</label>
+    <input type="text" id="search-input" oninput="filterItems()">
+	</div>
  
  
  
@@ -172,62 +177,62 @@
  
 
  
-    <!-- Navigation Tab --> 
-<div id="nav-tab"> 
-    <div class="dropdown"> 
-        <a href="#" class="home">Quest Traders</a> 
-        <div class="dropdown-content"> 
-            <a href="#">Proper</a> 
-            <a href="#">therapist</a> 
-            <a href="#">Fence</a> 
-            <a href="#">Skier</a> 
-            <a href="#">Ragman</a> 
-            <a href="#">Mechanic</a> 
-            <a href="#">Jaeger</a> 
-            <!-- Add more trader options as needed --> 
-        </div> 
-    </div> 
-    <div class="dropdown"> 
-        <a href="#" class="tasks-dropdown">Ammo Guide</a> 
-        <div class="dropdown-content"> 
-            <a href="#">Ammo Guide</a> 
-            <!-- Add more task options as needed --> 
-        </div> 
-    </div> 
-    <div class="dropdown"> 
-        <a href="#" class="items-dropdown">Quest Items Needed</a> 
-        <div class="dropdown-content"> 
-            <a href="#">Item 1</a> 
-            <!-- Add more item options as needed --> 
-        </div> 
-    </div> 
-    <div class="dropdown"> 
-        <a href="#" class="items-dropdown">Hideout Guide</a> 
-        <div class="dropdown-content"> 
-            <a href="#">Hideout Guide</a> 
-            <!-- Add more item options as needed --> 
-        </div> 
-    </div> 
-     
-    <div class="dropdown"> 
-        <a href="#" class="items-dropdown">Maps</a> 
-        <div class="dropdown-content"> 
-            <a href="#">Customs</a> 
-            <a href="#">Factory</a> 
-            <a href="#">Reserve</a> 
-            <a href="#">Shoreline</a> 
-            <a href="#">LightHouse</a> 
-            <a href="#">Woods</a> 
-            <a href="#">Interchange</a> 
-            <a href="#">The Lab</a> 
-            <a href="#">Streets Of Tarkov</a> 
-            <a href="#">Ground Zero</a> 
-            <!-- Add more item options as needed --> 
-        </div> 
-    </div> 
-    <!-- Add more navigation links as needed --> 
-</div> 
-<div id="nav-toggle">&#9654;</div> 
+   <!-- Navigation Tab -->
+    <div id="nav-tab">
+        <div class="dropdown">
+            <a href="#" class="home">Quest Traders</a>
+            <div class="dropdown-content">
+                <a href="Traders Main Pages/Proper.html">Proper</a>
+                <a href="Traders Main Pages/Therapist.html">therapist</a>
+                <a href="Traders Main Pages/Fence.html">Fence</a>
+                <a href="Traders Main Pages/Skier.html">Skier</a>
+                <a href="Traders Main Pages/Ragman.html">Ragman</a>
+				<a href="Traders Main Pages/PeaceKeeper.html">PeaceKeeper</a>
+                <a href="Traders Main Pages/Mechanic.html">Mechanic</a>
+                <a href="Traders Main Pages/Jeager.html">Jaeger</a>
+                <!-- Add more trader options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="tasks-dropdown">Ammo Guide</a>
+            <div class="dropdown-content">
+                <a href="Ammo Guide/AmmoGuide.html">Ammo Guide</a>
+                <!-- Add more task options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Quest Items Needed</a>
+            <div class="dropdown-content">
+                <a href="Quest Items Needed/QuestItemsNeeded.html">Quest Items Needed</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Hideout Guide</a>
+            <div class="dropdown-content">
+                <a href="Hideout Guide/Hideout_Guide.html">Hideout Guide</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Maps</a>
+            <div class="dropdown-content">
+                <a href="Tarkov Maps/Customs.jpg">Customs</a>
+                <a href="Tarkov Maps/Factory.png">Factory</a>
+                <a href="Tarkov Maps/Reserve.png">Reserve</a>
+                <a href="Tarkov Maps/Shoreline.jpg">Shoreline</a>
+                <a href="Tarkov Maps/Lighthouse.jpg">LightHouse</a>
+                <a href="Tarkov Maps/Woods.jpg">Woods</a>
+                <a href="Tarkov Maps/Interchange.png">Interchange</a>
+                <a href="Tarkov Maps/Labs.png">The Lab</a>
+                <a href="Tarkov Maps/Streets Of Tarkov.jpg">Streets Of Tarkov</a>
+                <a href="Tarkov Maps/Ground Zero.png">Ground Zero</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <!-- Add more navigation links as needed -->
+    </div>
+    <div id="nav-toggle">&#9654;</div>
  
 <script>
     // JavaScript to handle toggle functionality
@@ -260,6 +265,19 @@
             }
         });
     });
-</script> 
+function filterItems() {
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+        const taskItems = document.querySelectorAll('#tasks li');
+
+        taskItems.forEach(item => {
+            const itemName = item.innerText.toLowerCase();
+            if (itemName.includes(searchInput)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+</script>
 </body> 
 </html>'
