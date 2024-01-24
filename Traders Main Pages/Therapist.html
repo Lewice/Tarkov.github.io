@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+	
+        main {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 20px;
+}
+
+main a {
+    display: block;
+    margin-bottom: 10px;
+    /* Additional styling for each link if needed */
+}
+
+
+
+        #nav-tab {
+            position: fixed;
+            top: 10px;
+            left: -200px;
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: left 0.3s ease;
+        }
+
+        #nav-toggle {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+            color: white;
+            font-size: 24px;
+            z-index: 2;
+        }
+
+        #nav-tab a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+            transition: margin-left 0.3s ease;
+            padding: 5px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+
+        #nav-tab .dropdown {
+            margin-top: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #nav-tab .dropdown-content {
+            margin-left: -200px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            transition: margin-left 0.3s ease;
+        }
+
+        #nav-tab .dropdown.active .dropdown-content {
+            margin-left: 0;
+        }
+    </style>
+    <title>The Collector</title>
+</head>
+<body>
+    <!-- Navigation Tab -->
+    <div id="nav-tab">
+        <div class="dropdown">
+            <a href="#" class="home">Quest Traders</a>
+            <div class="dropdown-content">
+                <a href="Traders Main Pages/Proper.html">Proper</a>
+                <a href="Traders Main Pages/Therapist.html">therapist</a>
+                <a href="Traders Main Pages/Fence.html">Fence</a>
+                <a href="Traders Main Pages/Skier.html">Skier</a>
+                <a href="Traders Main Pages/Ragman.html">Ragman</a>
+				<a href="Traders Main Pages/PeaceKeeper.html">PeaceKeeper</a>
+                <a href="Traders Main Pages/Mechanic.html">Mechanic</a>
+                <a href="Traders Main Pages/Jeager.html">Jaeger</a>
+                <!-- Add more trader options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="tasks-dropdown">Ammo Guide</a>
+            <div class="dropdown-content">
+                <a href="Ammo Guide/AmmoGuide.html">Ammo Guide</a>
+                <!-- Add more task options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Quest Items Needed</a>
+            <div class="dropdown-content">
+                <a href="Quest Items Needed/QuestItemsNeeded.html">Quest Items Needed</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Hideout Guide</a>
+            <div class="dropdown-content">
+                <a href="Hideout Guide/Hideout_Guide.html">Hideout Guide</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Maps</a>
+            <div class="dropdown-content">
+                <a href="Tarkov Maps/Customs.jpg">Customs</a>
+                <a href="Tarkov Maps/Factory.png">Factory</a>
+                <a href="Tarkov Maps/Reserve.png">Reserve</a>
+                <a href="Tarkov Maps/Shoreline.jpg">Shoreline</a>
+                <a href="Tarkov Maps/Lighthouse.jpg">LightHouse</a>
+                <a href="Tarkov Maps/Woods.jpg">Woods</a>
+                <a href="Tarkov Maps/Interchange.png">Interchange</a>
+                <a href="Tarkov Maps/Labs.png">The Lab</a>
+                <a href="Tarkov Maps/Streets Of Tarkov.jpg">Streets Of Tarkov</a>
+                <a href="Tarkov Maps/Ground Zero.png">Ground Zero</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <!-- Add more navigation links as needed -->
+    </div>
+    <div id="nav-toggle">&#9654;</div>
+
+    <main>
+	
+	<h1>Proper</h1>
+        <!-- Move the links inside the main tag for centering -->
+        <div>
+        <a href="Therapist/Shortage.html">Shortage</a>
+        <a href="Therapist/SanitaryStandards.html">Sanitary standards</a>
+        <a href="Therapist/OperationAquarius.html">Operation Aquarius</a>
+        <a href="Therapist/SanataryStandards2.html">Sanitary standards pt 2</a>
+		<a href="Therapist/OperationAqarius2.html">Operation Aquarius pt 2</a>
+        <a href="Therapist/PainKiller.html">Pain killer</a>
+		<a href="Therapist/Pharmacist.html">Pharmacist</a>
+        <a href="Therapist/SeasideVacation.html">Seaside vacation</a>
+		<a href="Therapist/GeneralWares.html">General wares</a>
+        <a href="Therapist/HealthCarePrivacypt1.html">Health care privacy pt 1</a>
+		<a href="Therapist/SupplyPlans.html">Supply plans</a>
+        <a href="Therapist/CarRepair.html">Car repair</a>
+		<a href="Therapist/HippocraticOath.html">Hippocratic oath</a>
+        <a href="Therapist/DiseaseHistory.html">Disease history</a>
+        <a href="Therapist/ColleaguesPt1.html">Colleagues pt 1</a>
+        <a href="Therapist/HealthCarePrivacypt2.html">Health care privacy pt 2</a>
+		<a href="Therapist/PostmanPat2.html">Postman pat pt 2</a>
+        <a href="Therapist/Colleauges2.html">Colleagues pt 2</a>
+		<a href="Therapist/HealthCarePrivacy3.html">Health care privacy pt 3</a>
+        <a href="Therapist/LostContact.html">Lost contact</a>
+		<a href="Therapist/OutOfCuriosity.html">Out of curiosity</a>
+        <a href="Therapist/Colleaguespt3.html">Colleagues pt 3</a>
+		<a href="Therapist/HealthCarePrivacypt4.html">Health care privacy pt 4</a>
+        <a href="Therapist/AppleAday.html">An apple a day keeps the doc away</a>
+		<a href="Therapist/DrugTrafficking.html">Drug trafficing</a>
+        <a href="Therapist/TrustRegain.html">Trust regain</a>
+        <a href="Therapist/HealthcarePrivacy5.html">Healthcare privacy pt 5</a>
+        <a href="Therapist/PrivateClinc.html">Private clinic</a>
+		<a href="Therapist/Athlete.html">Athlete</a>
+        <a href="Therapist/DecontaminationZone.html">Decontamination zone</a>
+		<a href="Therapist/Crisis.html">Crisis</a>
+    </div>
+		
+
+    </main>
+
+    <script>
+        // JavaScript to handle toggle functionality
+        const navTab = document.getElementById('nav-tab');
+        const navToggle = document.getElementById('nav-toggle');
+
+        navToggle.addEventListener('click', () => {
+            const currentLeft = parseInt(getComputedStyle(navTab).left);
+            navTab.style.left = currentLeft === 0 ? '-200px' : '0';
+        });
+
+        // Toggle dropdown on click
+        const dropdowns = document.querySelectorAll('.dropdown');
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function (event) {
+                event.stopPropagation(); // Prevent the click event from reaching document
+
+                this.classList.toggle('active');
+                const content = this.querySelector('.dropdown-content');
+                content.style.height = this.classList.contains('active') ? `${content.scrollHeight}px` : '0';
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', () => {
+            dropdowns.forEach(dropdown => {
+                if (!dropdown.contains(event.target)) {
+                    dropdown.classList.remove('active');
+                    dropdown.querySelector('.dropdown-content').style.height = '0';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
