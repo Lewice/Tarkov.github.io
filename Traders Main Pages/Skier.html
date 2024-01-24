@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+	
+        main {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 20px;
+}
+
+main a {
+    display: block;
+    margin-bottom: 10px;
+    /* Additional styling for each link if needed */
+}
+
+
+
+        #nav-tab {
+            position: fixed;
+            top: 10px;
+            left: -200px;
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: left 0.3s ease;
+        }
+
+        #nav-toggle {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+            color: white;
+            font-size: 24px;
+            z-index: 2;
+        }
+
+        #nav-tab a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+            transition: margin-left 0.3s ease;
+            padding: 5px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+
+        #nav-tab .dropdown {
+            margin-top: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #nav-tab .dropdown-content {
+            margin-left: -200px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            transition: margin-left 0.3s ease;
+        }
+
+        #nav-tab .dropdown.active .dropdown-content {
+            margin-left: 0;
+        }
+    </style>
+    <title>The Collector</title>
+</head>
+<body>
+    <!-- Navigation Tab -->
+    <div id="nav-tab">
+        <div class="dropdown">
+            <a href="#" class="home">Quest Traders</a>
+            <div class="dropdown-content">
+                <a href="Traders Main Pages/Proper.html">Proper</a>
+                <a href="Traders Main Pages/Therapist.html">therapist</a>
+                <a href="Traders Main Pages/Fence.html">Fence</a>
+                <a href="Traders Main Pages/Skier.html">Skier</a>
+                <a href="Traders Main Pages/Ragman.html">Ragman</a>
+				<a href="Traders Main Pages/PeaceKeeper.html">PeaceKeeper</a>
+                <a href="Traders Main Pages/Mechanic.html">Mechanic</a>
+                <a href="Traders Main Pages/Jeager.html">Jaeger</a>
+                <!-- Add more trader options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="tasks-dropdown">Ammo Guide</a>
+            <div class="dropdown-content">
+                <a href="Ammo Guide/AmmoGuide.html">Ammo Guide</a>
+                <!-- Add more task options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Quest Items Needed</a>
+            <div class="dropdown-content">
+                <a href="Quest Items Needed/QuestItemsNeeded.html">Quest Items Needed</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Hideout Guide</a>
+            <div class="dropdown-content">
+                <a href="Hideout Guide/Hideout_Guide.html">Hideout Guide</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="items-dropdown">Maps</a>
+            <div class="dropdown-content">
+                <a href="Tarkov Maps/Customs.jpg">Customs</a>
+                <a href="Tarkov Maps/Factory.png">Factory</a>
+                <a href="Tarkov Maps/Reserve.png">Reserve</a>
+                <a href="Tarkov Maps/Shoreline.jpg">Shoreline</a>
+                <a href="Tarkov Maps/Lighthouse.jpg">LightHouse</a>
+                <a href="Tarkov Maps/Woods.jpg">Woods</a>
+                <a href="Tarkov Maps/Interchange.png">Interchange</a>
+                <a href="Tarkov Maps/Labs.png">The Lab</a>
+                <a href="Tarkov Maps/Streets Of Tarkov.jpg">Streets Of Tarkov</a>
+                <a href="Tarkov Maps/Ground Zero.png">Ground Zero</a>
+                <!-- Add more item options as needed -->
+            </div>
+        </div>
+        <!-- Add more navigation links as needed -->
+    </div>
+    <div id="nav-toggle">&#9654;</div>
+
+    <main>
+	
+	<h1>Skier</h1>
+        <!-- Move the links inside the main tag for centering -->
+        <div>
+        <a href="Skier/Supplier.html">supplier</a>
+        <a href="Skier/Extorionist.html">The extortionist</a>
+        <a href="Skier/Stirrup.html">Stirrup</a>
+        <a href="Skier/FlashDrive.html">What’s on the flash drive</a>
+		<a href="Skier/GoldenSwag.html">Golden swag</a>
+        <a href="Skier/ChemicalPt1.html">Chemical pt 1</a>
+		<a href="Skier/FriendFromWest.html">Friend from the west</a>
+        <a href="Skier/FriendFromWest2.html">Friend from the west pt 2</a>
+		<a href="Skier/Chemical2.html">Chemical pt 2</a>
+        <a href="Skier/KindofSabotage.html">Kind of sabotage</a>
+		<a href="Skier/TopSecret.html">Top secret</a>
+        <a href="Skier/Chemical3.html">Chemical pt 3</a>
+		<a href="Skier/LendLease.html">Lend lease pt 1</a>
+        <a href="Skier/InformedMeansArms.html">Informed means arms</a>
+        <a href="Skier/LongRoad.html">Long road</a>
+        <a href="Skier/Viatamins1.html">Viatamins pt 1</a>
+		<a href="Skier/Chemical4.html">Chemical pt 4</a>
+        <a href="Skier/Chumming.html">Chumming</a>
+		<a href="Skier/MissingCargo.html">Missing cargo</a>
+        <a href="Skier/Viatamins2.html">Viatamins pt 2</a>
+		<a href="Skier/SafeCorridor.html">Safe corridor</a>
+        <a href="Skier/Bullshit.html">Bullshit</a>
+		<a href="Skier/SilentCaliber.html">Silent caliber</a>
+        <a href="Skier/Flint.html">Flint</a>
+		<a href="Skier/LoyaltyBuyout.html">Loyalty buyout</a>
+        <a href="Skier/Setup.html">Setup</a>
+        <a href="Skier/RiggedGame.html">Rigged game</a>
+        <a href="Skier/NightSweep.html">Night sweep</a>>
+    </div>
+		
+
+    </main>
+
+    <script>
+        // JavaScript to handle toggle functionality
+        const navTab = document.getElementById('nav-tab');
+        const navToggle = document.getElementById('nav-toggle');
+
+        navToggle.addEventListener('click', () => {
+            const currentLeft = parseInt(getComputedStyle(navTab).left);
+            navTab.style.left = currentLeft === 0 ? '-200px' : '0';
+        });
+
+        // Toggle dropdown on click
+        const dropdowns = document.querySelectorAll('.dropdown');
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function (event) {
+                event.stopPropagation(); // Prevent the click event from reaching document
+
+                this.classList.toggle('active');
+                const content = this.querySelector('.dropdown-content');
+                content.style.height = this.classList.contains('active') ? `${content.scrollHeight}px` : '0';
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', () => {
+            dropdowns.forEach(dropdown => {
+                if (!dropdown.contains(event.target)) {
+                    dropdown.classList.remove('active');
+                    dropdown.querySelector('.dropdown-content').style.height = '0';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
