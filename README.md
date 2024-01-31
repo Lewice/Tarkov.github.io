@@ -5,14 +5,14 @@
 </head>
 <body>
     <div>
-        <p><a href="Proper.html">Proper</a></p>
-        <p><a href="Therapist.html">Therapist</a></p>
-        <p><a href="Fence.html">Fence</a></p>
-        <p><a href="Skier.html">Skier</a></p>
-        <p><a href="PeaceKeeper.html">PeaceKeeper</a></p>
-        <p><a href="Ragman.html">Ragman</a></p>
-        <p><a href="Mechanic.html">Mechanic</a></p>
-        <p><a href="Jeager.html">Jeager</a></p>
+        <p><a href="Traders Main Pages/Proper.html">Proper</a></p>
+        <p><a href="Traders Main Pages/Therapist.html">Therapist</a></p>
+        <p><a href="Traders Main Pages/Fence.html">Fence</a></p>
+        <p><a href="Traders Main Pages/Skier.html">Skier</a></p>
+        <p><a href="Traders Main Pages/PeaceKeeper.html">PeaceKeeper</a></p>
+        <p><a href="Traders Main Pages/Ragman.html">Ragman</a></p>
+        <p><a href="Traders Main Pages/Mechanic.html">Mechanic</a></p>
+        <p><a href="Traders Main Pages/Jeager.html">Jeager</a></p>
         <p><a href="Quest.html">Quest Items</a></p>
         <p><a href="Ammo.html">Ammo Guide</a></p>
         <p><a href="Item.html">Item Guide</a></p>
